@@ -1,6 +1,6 @@
 Package: com.yourcompany.sampleappavatarprovider
 Name: SampleAppAvatarProvider
-Depends: mobilesubstrate
+Depends: mobilesubstrate, com.xcxiao.contactnotification
 Version: 0.0.1
 Architecture: iphoneos-arm
 Description: An awesome Contacy extension!
