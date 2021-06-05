@@ -1,4 +1,4 @@
-#include "SampleAppAvatarProvider.h"
+#import "SampleAppAvatarProvider.h"
 
 @implementation SampleAppAvatarProvider
 
