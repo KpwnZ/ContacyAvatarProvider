@@ -1,7 +1,7 @@
 # ContacyAvatarProvider
 
 ## Usage
-- copy iphone_Contacy_avatar_provider.nic.tar to $THEOS/template/ios/iphone/
+- copy iphone_Contacy_avatar_provider.nic.tar to $THEOS/templates/ios/iphone/
 - ```$THEOS/bin/nic.pl``` and choose Contacy_avatar_provider
 
 To create your own avatar provider, you need to the app name and application identifier. Your provider will inherit from ```CNContactAvatarProvider```. You can overwrite ```-[CNContactAvatarProvider fetchAvatarForContactNotification:(CNNotification *)]``` to get avatar image from ```CNNotification```
